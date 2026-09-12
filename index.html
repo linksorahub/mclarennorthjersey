@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Choose a Luxury Car Dealer in Ramsey, New Jersey</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #121F28;
+            --accent: #2563eb;
+            --text-dark: #333333;
+            --text-light: #F9F9F9;
+            --bg-light: #FFFFFF;
+            --bg-alt: #F4F4F4;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.8;
+            background-color: var(--bg-light);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--primary);
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--accent);
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary);
+        }
+
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(18, 31, 40, 0.95);
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            transition: all 0.3s ease;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+        }
+
+        .logo-container img {
+            height: 40px;
+            width: auto;
+            filter: brightness(0) invert(1);
+            object-fit: contain;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+        }
+
+        nav ul li a:hover {
+            color: var(--accent);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(18, 31, 40, 0.75), rgba(18, 31, 40, 0.6)), url('IMAGE.webp') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        .hero-content h1 {
+            color: #fff;
+            font-size: 3rem;
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            line-height: 1.2;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 40px;
+            background-color: var(--accent);
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 1px;
+            border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: var(--primary);
+            box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+            transform: translateY(-2px);
+        }
+
+        /* Content Sections */
+        .section-wrapper {
+            padding: 100px 20px;
+        }
+
+        .section-alt {
+            background-color: var(--bg-alt);
+        }
+
+        .content-container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .content-container h2 {
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+            padding-bottom: 20px;
+        }
+
+        .content-container h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent);
+        }
+
+        .content-container h3 {
+            font-size: 1.4rem;
+            margin: 30px 0 15px;
+            color: var(--primary);
+        }
+
+        .content-container p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #555;
+            text-align: justify;
+        }
+
+        .content-container ul {
+            margin-left: 20px;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .content-container li {
+            margin-bottom: 12px;
+            padding-left: 10px;
+        }
+
+        /* Image Divider (Fixed Black Screen Issue) */
+        .image-divider {
+            width: 100%;
+            max-height: 500px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #121F28;
+        }
+
+        .image-divider img {
+            width: 100%;
+            height: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Styled Table / Checklist */
+        .checklist-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background-color: #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .checklist-table th, .checklist-table td {
+            padding: 15px 20px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        .checklist-table th {
+            background-color: var(--primary);
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .checklist-table tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        /* FAQ Accordion Styling */
+        .faq-item {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--accent);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .faq-item h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--primary);
+        }
+
+        .faq-item h4 i {
+            color: var(--accent);
+            transition: transform 0.4s ease;
+        }
+
+        .faq-item p {
+            margin-top: 0;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            text-align: left;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        .faq-item.active h4 i {
+            transform: rotate(180deg);
+        }
+
+        .faq-item.active p {
+            max-height: 400px;
+            opacity: 1;
+            margin-top: 15px;
+        }
+
+        /* Footer & Google Map Section */
+        .business-details {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .business-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .business-container h2 {
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 2.2rem;
+        }
+
+        .business-container h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent);
+            margin: 15px auto 0;
+        }
+
+        .business-info {
+            font-size: 1.1rem;
+            color: #ddd;
+            margin-bottom: 30px;
+            line-height: 2;
+        }
+
+        .map-wrapper {
+            width: 100%;
+            max-width: 800px;
+            margin: 30px auto 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border: 2px solid rgba(255,255,255,0.1);
+        }
+
+        .map-wrapper iframe {
+            width: 100%;
+            height: 450px;
+            display: block;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 25px;
+            background-color: #0d161d;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        @media(max-width: 900px) {
+            header {
+                flex-direction: column;
+                padding: 15px;
+                gap: 15px;
+            }
+            .hero-content h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+        @media(max-width: 600px) {
+            .hero {
+                background-position: center top;
+                background-size: cover;
+                height: 90vh;
+            }
+            .hero-content h1 {
+                font-size: 1.8rem;
+            }
+            .image-divider {
+                max-height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <a href="https://www.mclarennorthjersey.com/?utm_source=AG&utm_medium=gmb" class="logo-container" target="_blank">
+            <img src="logo.svg" alt="McLaren North Jersey Logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#reputation" class="scroll-link">Reputation</a></li>
+                <li><a href="#inventory" class="scroll-link">Inventory</a></li>
+                <li><a href="#pricing" class="scroll-link">Pricing & Finance</a></li>
+                <li><a href="#service" class="scroll-link">Service Support</a></li>
+                <li><a href="#red-flags" class="scroll-link">Red Flags</a></li>
+                <li><a href="#checklist" class="scroll-link">Checklist</a></li>
+                <li><a href="#faq" class="scroll-link">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>How to Choose a Luxury Car Dealer in Ramsey, New Jersey</h1>
+            <a href="#reputation" class="btn scroll-link">Read Buying Guide</a>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="section-wrapper">
+        <div class="content-container" data-aos="fade-up">
+            <h2>Introduction</h2>
+            <p>Buying a luxury vehicle involves more than finding an attractive model on a dealership website. Buyers may have concerns about pricing, vehicle condition, financing terms, trade-in value, communication, and support after the sale. These concerns can become more important when considering a high-performance or exotic vehicle, where specialized knowledge and service experience matter.</p>
+            <p>A better approach is to evaluate the dealership as carefully as the vehicle itself. Look at its reputation, inventory quality, pricing clarity, vehicle expertise, financing options, service capabilities, and customer communication. Comparing these factors can help you narrow your choices and approach a dealership visit with greater confidence.</p>
+        </div>
+    </section>
+
+    <!-- Reputation & Customer Experience Section -->
+    <section id="reputation" class="section-wrapper section-alt">
+        <div class="content-container" data-aos="fade-up">
+            <h2>Start With the Dealer’s Reputation and Customer Experience</h2>
+            
+            <h3>Read Reviews for Patterns, Not Just Ratings</h3>
+            <p>A dealer’s star rating can give a quick impression, but it does not tell the full story. Read Google reviews and other customer feedback to understand what buyers actually experienced. Look for repeated comments about communication, professionalism, responsiveness, pricing transparency, delivery, and service department support. These details can reveal how the dealership handles real customer needs.</p>
+            <p>One negative review does not always mean there is a serious problem. A better approach is to look for patterns across multiple reviews. If many customers mention slow replies or unclear communication, that may be worth considering. The same applies to positive patterns, such as helpful staff or smooth vehicle delivery.</p>
+
+            <h3>Look for Consistent Customer Service</h3>
+            <p>Luxury vehicle purchases often require more personal attention. The sales team should answer questions clearly and provide useful information without creating unnecessary pressure. Good communication should continue through the purchase process and after delivery.</p>
+            <p>Check whether customers mention follow-up support, service assistance, and easy communication with the dealership. Consistency matters more than a single impressive review. A dealer with a strong pattern of reliable customer service is more likely to provide a smoother buying experience.</p>
+        </div>
+    </section>
+
+    <!-- Evaluate Luxury Vehicle Inventory Section -->
+    <section id="inventory" class="section-wrapper">
+        <div class="content-container" data-aos="fade-up">
+            <h2>Evaluate the Luxury Vehicle Inventory</h2>
+            
+            <h3>Check Vehicle Selection and Availability</h3>
+            <p>A strong luxury dealership should offer vehicles that match different buyer needs. Review its selection of luxury vehicles and performance cars, including both new and pre-owned models. Check the available brands, body styles, model years, and features. If buying used, look for certified pre-owned vehicles where applicable. This can provide an additional level of inspection and coverage.</p>
+
+            <h3>Examine Vehicle History and Condition</h3>
+            <p>For a pre-owned vehicle, do not rely only on photos or the sales description. Ask for a vehicle history report and verify the mileage, ownership history, accident or damage records, and available maintenance records. A pre-purchase inspection can also help identify mechanical or condition issues before you commit to the purchase.</p>
+
+            <h3>Match the Vehicle to Your Actual Needs</h3>
+            <p>The right vehicle should fit how you plan to use it. Compare performance, comfort, technology, cargo space, and everyday practicality. A powerful engine or attractive badge may be appealing, but it should not be the only reason you choose a vehicle.</p>
+        </div>
+    </section>
+
+    <!-- Image Divider (Replaced with direct img tag) -->
+    <div class="image-divider" data-aos="fade-in">
+        <img src="img.webp" alt="McLaren Workshop Service Area">
+    </div>
+
+    <!-- Pricing, Financing & Trade-In Section -->
+    <section id="pricing" class="section-wrapper">
+        <div class="content-container" data-aos="fade-up">
+            <h2>Compare Pricing, Financing, and Trade-In Terms</h2>
+            
+            <h3>Understand the Complete Purchase Price</h3>
+            <p>When comparing luxury cars, look beyond the advertised price. The final out-the-door cost may include sales tax, registration, documentation fees, and optional products. Ask for a written pricing breakdown so you can see exactly what you are paying.</p>
+
+            <h3>Review Financing Options Carefully</h3>
+            <p>Do not judge a loan only by its monthly payment. Compare the APR, loan term, down payment, monthly payment, and total financing cost. A longer term may reduce monthly payments but can increase the overall amount paid.</p>
+
+            <h3>Get a Clear Trade-In Valuation</h3>
+            <p>If you have a vehicle to trade, understand its value separately from the new car price. Compare trade-in estimates from more than one source when possible. This makes it easier to see whether the offer is competitive.</p>
+
+            <blockquote style="background: #f4f4f4; border-left: 4px solid var(--accent); padding: 15px; margin: 25px 0;">
+                <strong>What should I compare when buying a luxury car?</strong> Compare the vehicle price, fees, financing terms, trade-in value, warranty, and service support. Looking at the complete deal rather than one number can help you make a more informed decision.
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Service and Maintenance Support Section -->
+    <section id="service" class="section-wrapper section-alt">
+        <div class="content-container" data-aos="fade-up">
+            <h2>Assess Service and Maintenance Support Before Buying</h2>
+            
+            <h3>Ask About Service Department Capabilities</h3>
+            <p>A luxury vehicle can require specialized maintenance, so check the dealer’s service department before buying. Ask whether it has factory-trained technicians, genuine OEM parts, modern diagnostic equipment, and experience with the types of vehicles you are considering. Also confirm how scheduled maintenance is handled and whether service appointments are easy to arrange.</p>
+
+            <h3>Consider Long-Term Ownership Support</h3>
+            <p>Your evaluation should continue beyond the day you purchase the vehicle. Review warranty coverage, service scheduling, maintenance reminders, parts availability, and roadside assistance where applicable. Clear information about these services can make long-term ownership easier and help you plan future maintenance costs.</p>
+
+            <h3>Why Service Quality Matters for Luxury Vehicles</h3>
+            <p>The sales experience and ownership experience should be evaluated separately. A smooth showroom visit is useful, but it does not tell you how the dealership will support the vehicle months or years later. Specialized maintenance, trained technicians, and reliable parts support can matter just as much as the initial buying experience.</p>
+        </div>
+    </section>
+
+    <!-- Communication, Transparency & Location Section -->
+    <section class="section-wrapper">
+        <div class="content-container" data-aos="fade-up">
+            <h2>Verify Communication and Transparency During the Buying Process</h2>
+            
+            <h3>Pay Attention to How Questions Are Handled</h3>
+            <p>Good communication can make the buying process easier to understand. Notice whether the sales representative gives direct answers about pricing, vehicle history, features, and availability. Important details should be explained clearly and, when possible, provided in writing. If you are researching a <a href="https://www.mclarennorthjersey.com/?utm_source=AG&utm_medium=gmb" target="_blank">McLaren dealer Ramsey New Jersey</a>, transparency should be one of the factors you compare.</p>
+
+            <h3>Watch for Common Buying Friction</h3>
+            <p>Be cautious when fees are unclear, answers about vehicle history are vague, or you feel pressured to make an immediate decision. Also compare online listings with information provided at the dealership. Inconsistent details can create unnecessary confusion.</p>
+
+            <h3>Use the Test Drive as an Evaluation Step</h3>
+            <p>A test drive is more than a chance to experience performance. Check comfort, technology, visibility, driving position, handling, and overall vehicle condition. Use this time to confirm that the vehicle actually suits your needs.</p>
+
+            <h2 style="margin-top: 50px;">Check Location, Convenience, and Ongoing Accessibility</h2>
+            
+            <h3>Consider More Than Distance</h3>
+            <p>A convenient location can make dealership visits easier, especially when you need regular service. Consider appointment availability, communication channels, and any pickup or drop-off options offered. Buyers in Ramsey, New Jersey, and the wider Bergen County area should consider how easily they can reach the dealership for both sales and service needs.</p>
+
+            <h3>Think Beyond the Initial Purchase</h3>
+            <p>Luxury vehicle ownership involves more than the initial transaction. Future maintenance and service visits can take time, so accessibility should be part of your decision. A dealership that is easy to reach and provides convenient service scheduling can make long-term ownership more manageable in the New Jersey luxury automotive market.</p>
+
+            <h2 style="margin-top: 50px;">Questions to Ask Before Choosing a Luxury Car Dealer</h2>
+            <ul>
+                <li><strong>Is the vehicle history available?</strong> Ask for a vehicle history report and review ownership, mileage, and damage information.</li>
+                <li><strong>What is included in the advertised price?</strong> Confirm taxes, registration, documentation fees, and optional products.</li>
+                <li><strong>Are there additional dealership fees?</strong> Request a complete written cost breakdown.</li>
+                <li><strong>What warranty coverage comes with the vehicle?</strong> Understand what is covered and for how long.</li>
+                <li><strong>Does the service department handle this vehicle type?</strong> Confirm technician expertise and available equipment.</li>
+                <li><strong>Are maintenance records available?</strong> Review previous servicing and major repairs.</li>
+                <li><strong>Can I arrange an independent inspection?</strong> This can provide an additional condition check.</li>
+                <li><strong>How is the trade-in value determined?</strong> Ask how the offer was calculated.</li>
+                <li><strong>What financing options are available?</strong> Compare APR, terms, down payment, and total cost.</li>
+                <li><strong>What support is available after the purchase?</strong> Ask about service scheduling, parts, warranty support, and roadside assistance.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Red Flags Section -->
+    <section id="red-flags" class="section-wrapper section-alt">
+        <div class="content-container" data-aos="fade-up">
+            <h2>Red Flags to Watch for When Comparing Dealers</h2>
+            
+            <h3>Pricing Red Flags</h3>
+            <p>Be cautious when a dealer cannot clearly explain the total price. Unexplained charges, missing fee breakdowns, or major price changes late in the buying process can make the deal harder to evaluate. Ask for a complete written cost breakdown before making a decision.</p>
+
+            <h3>Vehicle Red Flags</h3>
+            <p>An incomplete vehicle history, unclear ownership records, or vague answers about condition should raise concerns. A trustworthy dealer should be willing to discuss maintenance records, previous ownership, mileage, and any known issues openly.</p>
+
+            <h3>Service Red Flags</h3>
+            <p>Poor communication can also signal future service problems. Watch for unclear maintenance procedures, difficulty getting straightforward service information, or delays in answering basic questions about warranty and after-sales support.</p>
+        </div>
+    </section>
+
+    <!-- Checklist Section -->
+    <section id="checklist" class="section-wrapper">
+        <div class="content-container" data-aos="fade-up">
+            <h2>A Simple Checklist for Choosing the Right Dealer</h2>
+            <p>Use this quick verification checklist before finalizing your dealership choice:</p>
+
+            <table class="checklist-table">
+                <thead>
+                    <tr>
+                        <th>Evaluation Item</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>☐ Strong and consistent customer feedback</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Transparent vehicle pricing</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Verified vehicle history</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Suitable inventory</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Clear financing terms</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Fair trade-in evaluation</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Reliable service department</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Warranty information explained</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Professional communication</td>
+                        <td>Verified</td>
+                    </tr>
+                    <tr>
+                        <td>☐ Convenient long-term support</td>
+                        <td>Verified</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-wrapper section-alt">
+        <div class="content-container" data-aos="fade-up">
+            <h2>FAQs About Choosing a Luxury Car Dealer in Ramsey, New Jersey</h2>
+
+            <div class="faq-item">
+                <h4>What should I look for in a luxury car dealer? <i class="fas fa-chevron-down"></i></h4>
+                <p>Look for a strong reputation, quality inventory, transparent pricing, clear financing, reliable service support, and professional communication.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Should I check reviews before visiting a luxury car dealership? <i class="fas fa-chevron-down"></i></h4>
+                <p>Yes. Reviews can reveal recurring patterns in customer service, communication, and long-term ownership support.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What documents should I check when buying a used luxury car? <i class="fas fa-chevron-down"></i></h4>
+                <p>Review the vehicle history report, maintenance records, ownership information, and applicable warranty documentation.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Is the service department important when choosing a luxury dealer? <i class="fas fa-chevron-down"></i></h4>
+                <p>Yes. Specialized maintenance and dependable service support can improve long-term vehicle care and ownership convenience.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>Should I compare multiple dealerships before buying? <i class="fas fa-chevron-down"></i></h4>
+                <p>Yes. Compare pricing, inventory, financing, service quality, and customer experience to identify the stronger overall option.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Takeaway Section -->
+    <section class="section-wrapper">
+        <div class="content-container" data-aos="fade-up">
+            <h2>Final Takeaway</h2>
+            <p>Choosing a luxury car dealer should be based on the complete ownership experience, not showroom appearance alone. Review reputation, inspect inventory, verify pricing, understand financing, evaluate service support, and assess communication. The best dealer is one that provides transparency and dependable support before, during, and after the purchase.</p>
+        </div>
+    </section>
+
+    <!-- Footer with Business Details & Google Map Embed -->
+    <footer class="business-details">
+        <div class="business-container" data-aos="zoom-in" data-aos-duration="800">
+            <h2>McLaren North Jersey</h2>
+            <div class="business-info">
+                <p><i class="fas fa-map-marker-alt" style="color: var(--accent); margin-right: 8px;"></i> 995 NJ-17, Ramsey, NJ 07446, United States</p>
+                <p><i class="fas fa-phone" style="color: var(--accent); margin-right: 8px;"></i> <a href="tel:+12016397750" style="color: #ddd;">+1 201-639-7750</a></p>
+                <p><i class="fas fa-globe" style="color: var(--accent); margin-right: 8px;"></i> <a href="https://www.mclarennorthjersey.com/?utm_source=AG&utm_medium=gmb" target="_blank" style="color: #ddd;">www.mclarennorthjersey.com</a></p>
+            </div>
+            
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.1255585339663!2d-74.13574682354758!3d41.06624801585272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fadef1532f61%3A0x8951c6ed8948a654!2sMcLaren%20North%20Jersey!5e0!3m2!1sen!2s!4v1789197718759!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="footer-bottom">
+        &copy; 2026 McLaren North Jersey. All Rights Reserved.
+    </div>
+
+    <!-- JavaScript Dependencies -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animations
+        AOS.init({
+            once: true,
+            offset: 100,
+            duration: 800,
+        });
+
+        // Sticky Header shrink effect on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.background = 'rgba(18, 31, 40, 1)';
+                header.style.padding = '10px 50px';
+            } else {
+                header.style.background = 'rgba(18, 31, 40, 0.95)';
+                header.style.padding = '15px 50px';
+            }
+        });
+
+        // Smooth Scrolling Navigation
+        document.querySelectorAll('.scroll-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const headerHeight = 90;
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+
+        // Interactive Accordion for FAQ
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                
+                // Close other active FAQs
+                document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
+                
+                // Toggle current FAQ
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
